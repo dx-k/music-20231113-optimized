@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --bCol:rgb(49, 194, 124);
+}
+body{
+    user-select: none;
+    background-color: rgba(239,239,239);
+}
+.outermost{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: rgba(239,239,239);
+}
+.core{
+    width: 60%;
+    height: 70%;
+    border-radius: 30px;
+    background-color: white;
+}
